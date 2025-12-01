@@ -4,7 +4,7 @@ let i = tble.rows.length +1;  // start counting from existing rows + 1
 function insert_Row() {
 
     // Create a new row
-    const newRow = tble.insertRow();
+    const newRow = tble.insertRow()
 
     // Create two new cells
     const cell1 = newRow.insertCell(0);
